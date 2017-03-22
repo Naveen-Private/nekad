@@ -218,6 +218,14 @@ img{
     max-width : 100%;
 }
 
+/*Paddings*/
+.padTop15{
+  padding-top: 15px;
+}
+.pad10{
+  padding: 10px;
+}
+
 input:focus,
 select:focus,
 button:focus{
@@ -281,7 +289,8 @@ button:focus{
 
 .header-top .phone strong{
   font-size: 20px;
-  color:#F9C535;
+  color:#001c70;
+  font-weight: normal;
 }
 
 .header-top .location {
@@ -412,6 +421,7 @@ Dropdown menu style
 
 .main-nav .dropdown-menu li{
   display: block;
+  cursor: pointer;
 }
 .main-nav .dropdown-menu li a{
     color: #001c70;
@@ -623,10 +633,10 @@ offcanvas-menu
   transition: opacity .5s;
 }
 .service-list:hover::before{
-  background: -webkit-linear-gradient(top right,rgba(252, 83, 76, 0) 0%,rgb(249, 197, 53) 100%);
-  background: -o-linear-gradient(top right,rgba(252, 83, 76, 0) 0%,rgba(249, 197, 53, .8) 100%);
-  background: -moz-linear-gradient(top right,rgba(252, 83, 76, 0) 0%,rgba(249, 197, 53, .8) 100%);
-  background: linear-gradient(top right,rgba(252, 83, 76, 0) 0%,rgba(249, 197, 53, .8) 100%);
+  background: -webkit-linear-gradient(top right,rgba(252, 83, 76, 0) 0%,rgb(0,28,112) 100%);
+  background: -o-linear-gradient(top right,rgba(252, 83, 76, 0) 0%,rgba(0,28,112, .8) 100%);
+  background: -moz-linear-gradient(top right,rgba(252, 83, 76, 0) 0%,rgba(0,28,112, .8) 100%);
+  background: linear-gradient(top right,rgba(252, 83, 76, 0) 0%,rgba(0,28,112, .8) 100%);
   opacity: 1;
 }
 .service-caption{
@@ -667,7 +677,7 @@ offcanvas-menu
   font-size: 1.714rem;
 }
 .service-right a:hover{
-  background: #F9C535;
+  background: #001c70;
   color: #fff;
 }
 
@@ -724,7 +734,7 @@ About-section
     right: 0;
 }
 .customNavigation a:hover{
-  background: #F9C535; 
+  background: #001c70; 
 }
 .customNavigation i{
   color:#ffffff;
@@ -994,7 +1004,7 @@ About-section
 .footer-section{
     margin-bottom:40px;   
     padding:40px 40px 20px;
-    background: #55595d;
+    background: #001658;
 }
 
 
@@ -1025,6 +1035,7 @@ About-section
 
 .recent-news a{
   display: block;
+  color: rgba(255, 255, 255, .5);
 }
 
 .recent-news  li:first-child{
@@ -1050,7 +1061,7 @@ About-section
   color: rgba(255, 255, 255, .5);
   transition: all .3s;
 }
-.services li a:hover{
+.services li a:hover,.recent-news a:hover{
   color:#ffffff;
 }
 
@@ -1091,6 +1102,12 @@ About-section
 .footer-social ul li a i{
   padding-right:.825em;
 }
+.date{
+  color: rgba(255, 255, 255, .5);
+}
+a.mailTo:hover{
+  color: #ffffff;
+}
 @media(max-width: 767px){
   .about, .news, .services{
     margin-bottom:3.571em;
@@ -1121,7 +1138,7 @@ About-section
     z-index: 9999;
     width: 50px;
     height: 50px;
-    background: #55595d;
+    background: #001c70;
     text-align: center;
     line-height: 28px;
       padding: 10px;
@@ -1373,7 +1390,7 @@ Contact page style
 .contact{
   padding: 4.286em 0;
   overflow: hidden;
-  border-bottom: 1px solid rgba(0, 0, 0, .1);  
+  /*border-bottom: 1px solid rgba(0, 0, 0, .1);  */
 }
 .contact-head{
   padding-bottom:3.2em;
@@ -1404,7 +1421,8 @@ Contact page style
     line-height: 2em;
     padding: 8px 30px;
     text-transform: uppercase;
-    border: 1px solid #F9C535;
+    border: 1px solid #001c70;
+    background: #001c70;
 }
 .contact-us .get-in-Touch address{
   color:#919191;
@@ -1435,3 +1453,4 @@ Contact page style
       margin-left: .6em;
   }
 }
+
