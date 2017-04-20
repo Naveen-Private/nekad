@@ -1366,6 +1366,17 @@ a.mailTo:hover{
   color:rgba(0, 0, 0, .4);
 }
 
+/*Naveen Custom Styles*/
+.serviceul{
+  padding-left: 50px;
+  list-style-type: circle;
+  padding-top: 20px;
+}
+
+.serviceul li{
+  padding: 10px;
+}
+
 @media(max-width: 767px){
   .company-description,
   .company-thumb, 
