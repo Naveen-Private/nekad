@@ -49,6 +49,7 @@
 	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 	    <link rel="stylesheet" href="../css/off-canvas.css"/>
 	    <link rel="stylesheet" href="../css/slick-theme.css"/>
+	    <link rel="stylesheet" href="../css/simplelightbox.min.css"/>
 	    <link rel="stylesheet" href="../css/style.css"/>
 		<!-- =========================================
 	    Head Libs
@@ -209,7 +210,7 @@
 										<h2>License & Registrations</h2>
 										<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p> -->
 									</div>
-									<div>
+									<!-- <div>
 										<p>Nekad Instrument and Electrical is registered with the following bodies / departments :-</p>
 										<ul style="list-style-type: square;">
 											<li style="padding-bottom: 20px;"> Petronas
@@ -231,6 +232,26 @@
 												</ul>
 											</li>
 										</ul>
+									</div> -->
+									<div class="gallery" style="text-align:center;">
+										<a href="../img/license&registration/CIDB.jpg">
+											<img src="../img/license&registration/CIDB_thumb.jpg" alt="CIDB" title="CIDB"/>
+										</a>
+										<a href="../img/license&registration/FORM 9.jpg">
+											<img src="../img/license&registration/FORM 9_thumb.jpg" alt="FORM 9" title="FORM 9"/>
+										</a>
+										<a href="../img/license&registration/NEKAD FORM13.jpg">
+											<img src="../img/license&registration/NEKAD FORM13_thumb.jpg" alt="NEKAD FORM13" title="NEKAD FORM13"/>
+										</a>
+										<a href="../img/license&registration/SURUHANJAYA TENAGA 2014-2017.jpg">
+											<img src="../img/license&registration/SURUHANJAYA TENAGA 2014-2017_thumb.jpg" alt="SURUHANJAYA TENAGA 2014-2017" title="SURUHANJAYA TENAGA 2014-2017"/>
+										</a>
+										<a href="../img/license&registration/SURUHANJAYA TIMBANG & SUKAT 2015-2018.jpg">
+											<img src="../img/license&registration/SURUHANJAYA TIMBANG & SUKAT 2015-2018_thumb.jpg" alt="SURUHANJAYA TIMBANG & SUKAT 2015-2018" title="SURUHANJAYA TIMBANG & SUKAT 2015-20187"/>
+										</a>
+										<a href="../img/license&registration/TNB CERT 2019.jpg">
+											<img src="../img/license&registration/TNB CERT 2019_thumb.jpg" alt="TNB CERT 2019" title="TNB CERT 2019"/>
+										</a>
 									</div>
 								</div>
 								<!--.contact-us-->
@@ -368,5 +389,11 @@
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="../js/owl.carousel.min.js"></script>
 		<script src="../js/hippo-off-canvas.js"></script>
+		<script src="../js/simple-lightbox.min.js"></script>
+		<script>
+			$(function(){
+				var $gallery = $('.gallery a').simpleLightbox();
+			});
+		</script>
 	</body>
 	</html>

@@ -49,6 +49,7 @@
 	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 	    <link rel="stylesheet" href="../css/off-canvas.css"/>
 	    <link rel="stylesheet" href="../css/slick-theme.css"/>
+	    <link rel="stylesheet" href="../css/simplelightbox.min.css"/>
 	    <link rel="stylesheet" href="../css/style.css"/>
 		<!-- =========================================
 	    Head Libs
@@ -182,7 +183,7 @@
 								    	<div class="col-md-6 col-xs-12 col-sm-6">
 											<ul class="breadcrumb">
 											   <li><a href="index.html">Home</a></li>
-											   <li class="active">Certfications</li>
+											   <li class="active">Certificate & Agency Appointment Letter</li>
 											</ul>
 										</div>
 										<div class="col-md-6 col-xs-12 col-sm-6">
@@ -206,17 +207,35 @@
 							<div class="inner-content">
 								<div class="contact" style="padding-bottom: 20px;">
 									<div class="contact-head">
-										<h2>Certfications</h2>
+										<h2>Certificate & Agency Appointment Letter</h2>
 										<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p> -->
 									</div>
-									<div>
+
+									<div class="gallery" style="text-align:center;">
+										<a href="../img/certifications/MASER [M] SDN BHD-001.jpg">
+											<img src="../img/certifications/MASER [M] SDN BHD-001_thumb.jpg" alt="MASER [M] SDN BHD" title="MASER [M] SDN BHD"/>
+										</a>
+										<a href="../img/certifications/MITRA IT SOLUTIONS SDN BHD-001.jpg">
+											<img src="../img/certifications/MITRA IT SOLUTIONS SDN BHD-001_thumb.jpg" alt="MITRA IT SOLUTIONS SDN BHD" title="MITRA IT SOLUTIONS SDN BHD"/>
+										</a>
+										<a href="../img/certifications/PYROMETRO AUTHORIZED LETTER-001.jpg">
+											<img src="../img/certifications/PYROMETRO AUTHORIZED LETTER-001_thumb.jpg" alt="PYROMETRO AUTHORIZED LETTER" title="PYROMETRO AUTHORIZED LETTER"/>
+										</a>
+										<a href="../img/certifications/NEKAD_ISO_CERT 2014-2017.jpg">
+											<img src="../img/certifications/NEKAD_ISO_CERT 2014-2017_thumb.jpg" alt="NEKAD_ISO_CERT 2014-2017" title="NEKAD_ISO_CERT 2014-2017"/>
+										</a>
+									</div>
+
+									<!-- <div>
 										<div class="col-md-6">
 											<img src="../img/certifications/NEKAD_ISO_CERT 2014-2017.jpg" />
 										</div>
 										<div class="col-md-6">
 											<img src="../img/certifications/TNB_CERT 2019.jpg" />
 										</div>
-									</div>
+									</div> -->
+
+
 								</div>
 								<!--.contact-us-->
 							</div>
@@ -349,5 +368,52 @@
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="../js/owl.carousel.min.js"></script>
 		<script src="../js/hippo-off-canvas.js"></script>
+		<script src="../js/simple-lightbox.min.js"></script>
+		<script>
+			$(function(){
+				var $gallery = $('.gallery a').simpleLightbox();
+
+				// $gallery.on('show.simplelightbox', function(){
+				// 	console.log('Requested for showing');
+				// })
+				// .on('shown.simplelightbox', function(){
+				// 	console.log('Shown');
+				// })
+				// .on('close.simplelightbox', function(){
+				// 	console.log('Requested for closing');
+				// })
+				// .on('closed.simplelightbox', function(){
+				// 	console.log('Closed');
+				// })
+				// .on('change.simplelightbox', function(){
+				// 	console.log('Requested for change');
+				// })
+				// .on('next.simplelightbox', function(){
+				// 	console.log('Requested for next');
+				// })
+				// .on('prev.simplelightbox', function(){
+				// 	console.log('Requested for prev');
+				// })
+				// .on('nextImageLoaded.simplelightbox', function(){
+				// 	console.log('Next image loaded');
+				// })
+				// .on('prevImageLoaded.simplelightbox', function(){
+				// 	console.log('Prev image loaded');
+				// })
+				// .on('changed.simplelightbox', function(){
+				// 	console.log('Image changed');
+				// })
+				// .on('nextDone.simplelightbox', function(){
+				// 	console.log('Image changed to next');
+				// })
+				// .on('prevDone.simplelightbox', function(){
+				// 	console.log('Image changed to prev');
+				// })
+				// .on('error.simplelightbox', function(e){
+				// 	console.log('No image found, go to the next/prev');
+				// 	console.log(e);
+				// });
+			});
+		</script>
 	</body>
 	</html>
