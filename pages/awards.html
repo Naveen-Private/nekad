@@ -49,6 +49,7 @@
 	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 	    <link rel="stylesheet" href="../css/off-canvas.css"/>
 	    <link rel="stylesheet" href="../css/slick-theme.css"/>
+	    <link rel="stylesheet" href="../css/simplelightbox.min.css"/>
 	    <link rel="stylesheet" href="../css/style.css"/>
 		<!-- =========================================
 	    Head Libs
@@ -124,7 +125,7 @@
 															<li class="divider"></li>
 															<li><a href="visionandmission.html">Vision & Mission</a></li>
 															<li class="divider"></li>
-															<li><a href="safetypolicy.html">Safety Policy</a></li>
+															<li><a href="safetypolicy.html">Policy</a></li>
 														</ul>
 												      </li>
 												      <!-- <li><a href="about.html">About Us</a></li> -->
@@ -140,9 +141,9 @@
 																<li class="divider"></li>
 																<li><a href="testequipmentrental.html">Test Equipment Rental</a></li>
 																<li class="divider"></li>
-																<li><a href="psvandsrv.html">PSV and SRV Maintainance and Repair</a></li>
+																<li><a href="psvandsrv.html">PSV Maintenance & Repair</a></li>
 																<li class="divider"></li>
-																<li><a href="controlvaluesandmaintainance.html">Control Values Maintainance and Repair</a></li>
+																<li><a href="controlvaluesandmaintainance.html">Control Valve Maintainance and Repair</a></li>
 																<li class="divider"></li>
 																<li><a href="instrumentationelectrical.html">Instrumentation & Electrical Material and Equipment Supply</a></li>
 																<li><a href="manpowersupply.html">Manpower Supply</a></li>
@@ -209,13 +210,21 @@
 										<h2>Awards</h2>
 										<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p> -->
 									</div>
-									<div>
+									<!-- <div>
 										<div class="col-md-6">
 											<img src="../img/awards/appreciation1.jpg" />
 										</div>
 										<div class="col-md-6">
 											<img src="../img/awards/appreciation2.jpg" />
 										</div>
+									</div> -->
+									<div class="gallery">
+										<a href="../img/awards/appreciation1.jpg">
+											<img src="../img/awards/appreciation1_thumb.jpg" alt="Appreciation1" title="Appreciation1"/>
+										</a>
+										<a href="../img/awards/appreciation2.jpg">
+											<img src="../img/awards/appreciation2_thumb.jpg" alt="Appreciation2" title="Appreciation2"/>
+										</a>
 									</div>
 								</div>
 								<!--.contact-us-->
@@ -238,7 +247,7 @@
 													<li><a href="whoweare.html">Who We Are</a></li>
 													<li><a href="corevalues.html">Core Values</a></li>
 													<li><a href="visionandmission.html">Vision & Mission</a></li>
-													<li><a href="safetypolicy.html">Safety Policy</a></li>
+													<li><a href="safetypolicy.html">Policy</a></li>
 												</ul>
 											</div>
 										</div>
@@ -251,8 +260,8 @@
 													<li><a href="onlineanalyzers.html">Online Analyzers Maintainance</a></li>
 													<li><a href="telecommunicationssystem.html">Telelcommunications System</a></li>
 													<li><a href="testequipmentrental.html">Test Equipment Rental</a></li>
-													<li><a href="psvandsrv.html">PSV and SRV Maintainance and Repair</a></li>
-													<li><a href="controlvaluesandmaintainance.html">Control Values Maintainance and Repair</a></li>
+													<li><a href="psvandsrv.html">PSV Maintenance & Repair</a></li>
+													<li><a href="controlvaluesandmaintainance.html">Control Valve Maintainance and Repair</a></li>
 													<li><a href="instrumentationelectrical.html">Instrumentation & Electrical Material and Equipment Supply</a></li>
 													<li><a href="manpowersupply.html">Manpower Supply</a></li>
 												</ul>
@@ -263,7 +272,7 @@
 												<h4>Achievements</h4>
 												<ul>
 													<li><a href="awards.html">Awards</a></li>
-													<li><a href="certifications.html">Certifications</a></li>
+													<li><a href="certifications.html">Certificate & Agency appointment letter</a></li>
 													<li><a href="licenseandregistrations.html">Licenses & Registrations</a></li>
 													<li><a href="#">Past Projects</a></li>
 												</ul>
@@ -353,5 +362,11 @@
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="../js/owl.carousel.min.js"></script>
 		<script src="../js/hippo-off-canvas.js"></script>
+		<script src="../js/simple-lightbox.min.js"></script>
+		<script>
+			$(function(){
+				var $gallery = $('.gallery a').simpleLightbox();
+			});
+		</script>
 	</body>
 	</html>
